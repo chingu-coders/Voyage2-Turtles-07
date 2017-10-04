@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "short_name": "Voyage 2",
+  "name": "Voyage 2 Turtles 07",
+  "browser_action": {
+    "default_icon": "favicon.ico",
+    "default_popup": "index.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "version": "0.1"
+}
