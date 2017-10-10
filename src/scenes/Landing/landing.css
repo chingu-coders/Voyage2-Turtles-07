@@ -1,0 +1,24 @@
+.main-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.time {
+
+}
+
+.daily-image {
+
+}
+
+.date {
+
+}
+
+.side-menu {
+  
+}

@@ -1,0 +1,7 @@
+.picture {
+    display: flex;
+    align-self: center;
+    width: 600px;
+    height: 400px;
+    background: cyan;
+}
