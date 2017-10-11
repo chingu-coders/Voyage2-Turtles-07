@@ -1,6 +1,6 @@
 .date {
-    display: flex;
-    align-self: center;
+    align-self: flex-start;
     font-size: 26px;
     font-family: monospace, sans-serif;
+    margin: 10px 0 0 100px;
 }

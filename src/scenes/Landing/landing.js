@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
 import './landing.css';
-import Date from './components/DateTime/date';
-import Picture from './components/DateTime/picture';
+import DateTime from './components/DateTime/container';
 
 class Landing extends Component {
   render() {
     return (
       <section className="main-container">
-          <Picture />
-          <Date />
-          <div className="date">
-          </div>
+          <DateTime />
           <aside className="side-menu">
           </aside>
       </section>

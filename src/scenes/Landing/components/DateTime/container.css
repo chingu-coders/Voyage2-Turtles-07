@@ -1,0 +1,9 @@
+.date-time-container {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.time-picture-container {
+    display: flex;
+    flex-flow: row wrap;
+}
