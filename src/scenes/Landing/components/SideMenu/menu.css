@@ -3,19 +3,42 @@
     flex-flow: column wrap;
     align-self: stretch;
     justify-content: space-around;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
 }
 
 .weather-icon {
-    width: 64px;
-    height: 64px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
 }
 
 .todo-icon {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.info-icon {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.weather-icon img {
+    align-self: center;
     width: 64px;
     height: 64px;
 }
 
-.info-icon {
+.todo-icon img{
+    align-self: center;
+    width: 64px;
+    height: 64px;
+}
+
+.info-icon img{
+    align-self: center;
     width: 64px;
     height: 64px;
 }

@@ -8,9 +8,18 @@ class SideMenu extends Component {
   render() {
     return (
       <div className="side-menu">
-          <img className="weather-icon" src={weatherIcon} />
-          <img className="todo-icon" src={todoIcon} />
-          <img className="info-icon" src={infoIcon} />
+          <div className="weather-icon">
+            <img src={weatherIcon} />
+            <label>86ºF/30ºC</label>
+          </div>
+          <div className="todo-icon">
+            <img src={todoIcon} />
+            <label>To-Do List</label>
+          </div>
+          <div className="info-icon">
+            <img src={infoIcon} />
+            <label>Info</label>
+          </div>
       </div>
     );
   }
