@@ -1,0 +1,21 @@
+.side-menu {
+    display: flex;
+    flex-flow: column wrap;
+    align-self: stretch;
+    justify-content: space-around;
+}
+
+.weather-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.todo-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.info-icon {
+    width: 100px;
+    height: 100px;
+}
